@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html, body {
+  min-height: 100vh;
+  background: linear-gradient(#eeb4ef, #f46bdf);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  padding: 0 calc(50vw - 520px);
+}
+.header__title {
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: center;
+  border-bottom: 2px solid #090b0b;
+}
